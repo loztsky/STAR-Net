@@ -10,7 +10,7 @@
 
 </div>
 
-This work presents **STAR-Net**, a novel multi-view DL-based approach for fluctuating target detection in sky-wave over-the-horizon radar systems using spatio-temporal attention refinement module.
+This work presents **STAR-Net**, a novel multiframe DL-based approach for fluctuating target detection in sky-wave over-the-horizon radar systems using spatio-temporal attention refinement module.
 
 <div align="center">
 <img src="images/compare.png" alt="Visual Example" width="800"/>
