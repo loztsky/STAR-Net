@@ -1,4 +1,4 @@
-| Parameter Name | Function/Purpose | Default Value |
+| Parameter Name | Function/Purpose | Option Value |
 | :------------- | :---------------- | :----------- |
 | `model` | Specifies the model name to be used. | `"starnet"`, `"mvanet"`, `"mvnet"`, `"tmvanet"` |
 | `dataset` | Specifies the dataset name to be used. | `"carrada"`, `"othr"` |
