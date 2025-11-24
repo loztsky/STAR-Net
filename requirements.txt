@@ -1,0 +1,13 @@
+tqdm
+tensorboard
+scipy
+numpy==1.26.0
+scikit-image
+opencv-python
+pillow
+matplotlib
+thop
+scikit-learn
+einops
+psutil
+timm
