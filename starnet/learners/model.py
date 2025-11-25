@@ -206,16 +206,16 @@ class Model(nn.Module):
                     # 数据集
                     rd_data = frame['rd_matrix'].to(self.device).float()
                     rd_mask = frame['rd_mask'].to(self.device).float()
-                    rd_data_np = rd_data.cpu().numpy()  # 转换为 NumPy
+                    // rd_data_np = rd_data.cpu().numpy()  # 转换为 NumPy
 
                     # import cv2
                     # 选择 batch 中的第一帧
-                    frame_idx = 0
-                    single_frame = rd_data_np[0, frame_idx, :, :]
+                    // frame_idx = 0
+                    // single_frame = rd_data_np[0, frame_idx, :, :]
 
                     # 归一化到 [0, 255]
-                    normalized_frame = (single_frame - np.min(single_frame)) / (np.max(single_frame) - np.min(single_frame) + 1e-6)
-                    normalized_frame = (normalized_frame * 255).astype(np.uint8)
+                    // normalized_frame = (single_frame - np.min(single_frame)) / (np.max(single_frame) - np.min(single_frame) + 1e-6)
+                    // normalized_frame = (normalized_frame * 255).astype(np.uint8)
 
                     # OpenCV 显示
                     # cv2.imshow("RD Matrix", normalized_frame)
