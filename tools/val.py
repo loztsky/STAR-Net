@@ -60,6 +60,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--cfg', 
                         help='Path to config file.',
-                        default='logs/othr/stenet/stenet_e400_lr0.0001_s42_3/config.json')
+                        default='logs/othr/starnet/starnet_e400_lr0.0001_s42_3/config.json')
     args = parser.parse_args()
     main(args)
