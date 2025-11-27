@@ -3,5 +3,5 @@ from .tmvanet import TMVANet
 from .mvnet import MVNet
 from .mvanet import MVANet
 
-# for stenet
+# for starnet
 from .starnet import STARNet
