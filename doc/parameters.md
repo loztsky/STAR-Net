@@ -30,7 +30,7 @@
 | `rd_loss_weight` | Weight for Range-Doppler (RD) view related loss (if model outputs multiple views). | `1` |
 | `ra_loss_weight` | Weight for Range-Azimuth (RA) view related loss (if model outputs multiple views). | `1` |
 | `shuffle` | Boolean indicating whether to shuffle training data at the beginning of each epoch. | `true` |
-| `comments` | Comments or descriptive information about the configuration file. | `"Spatio-Temporal Attention Refinement Network (STARNet). Methods: data aug (hflip, vflip) + multi loss + 5 input frames. Model selection: mean of precision. Normalisation: TVT. Loss: wCE + weighted Soft Dice Loss (10 * SDice)."` |
+| `comments` | Comments or descriptive information about the configuration file. | `"Spatio-Temporal Attention Refinement Network (STAR-Net). Methods: data aug (hflip, vflip) + multi loss + 5 input frames. Model selection: mean of precision. Normalisation: TVT. Loss: wCE + weighted Soft Dice Loss (10 * SDice)."` |
 
 ## Model-Specific Parameters
 
