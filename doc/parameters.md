@@ -9,8 +9,8 @@
 | `n_Output` | Number of output views or sequence length. | `1`, `2` |
 | `nb_classes` | Number of classes in classification task (including background). | `3`, `4` |
 | `nb_input_channels` | Number of input channels per sample (e.g., radar data may have multiple channels). | `5` |
-| `hidden_channels` | Number of hidden channels in LSTM modules (STENet specific). | `128` |
-| `num_layers` | Number of layers in LSTM modules (STENet specific). | `3` |
+| `hidden_channels` | Number of hidden channels in LSTM modules (STAR-Net specific). | `128` |
+| `num_layers` | Number of layers in LSTM modules (STAR-Net specific). | `3` |
 | `nb_epochs` | Total number of training epochs. | `5`, `50`, `300`, `400` |
 | `batch_size` | Number of samples used in each training iteration. | `4`, `5`, `8` |
 | `lr` | Learning rate, controls the magnitude of model parameter updates. | `0.0001` |
