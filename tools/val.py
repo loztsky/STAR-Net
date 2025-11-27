@@ -12,7 +12,6 @@ from starnet.learners.initializer import Initializer
 from starnet.utils.paths import Paths
 from starnet.utils.functions import info
 from starnet.learners.tester import Tester
-# from mvrss.models import TMVANet, MVNet, MVANet, MVA_DCN, TMVA_DCN, TMVA_TDC, PKCIn, PKCOn, SVNet, SVANet
 from starnet.loaders.dataset import Carrada, OTHR
 from starnet.loaders.dataloaders import SequenceCarradaDataset
 from starnet.utils.build import build_model
