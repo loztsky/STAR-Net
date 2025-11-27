@@ -43,7 +43,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--cfg',
                         help='Path to config file.',
-                        default='stenet/config_files/stenet.json')
+                        default='starnet/config_files/starnet.json')
     parser.add_argument("--resume",
                         help="continue to train model?",
                         default=False)
