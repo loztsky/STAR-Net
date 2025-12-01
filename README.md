@@ -70,6 +70,16 @@ Dataset structure:
 ${othr_data}/
 ├── train/
 │   ├── ${time1}/
+|   |   ├── range_doppler_processed
+|   |   |   ├── 000000.npy
+|   |   |   ├── 000001.npy
+|   |   |   └── ...
+|   |   ├── annotations
+|   |   |   ├── 000000
+|   |   |   |    └── range_doppler.npy
+|   |   |   ├── 000001
+|   |   |   |    └── range_doppler.npy
+|   |   |   └── ...
 │   ├── ${time2}/
 │   └── ...
 ├── val/
