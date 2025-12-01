@@ -92,8 +92,7 @@ Configuration:
 ```ini
 warehouse=${othr_data}
 ```
-Due to the confidentiality of the dataset, we cannot open source it completely. We have open sourced a part of it, available at [Google Drive](https://drive.google.com/drive/folders/1UQBs6HTbl2ckQ6tTC9Ndoj8WQwCtf9yv?usp=drive_link).
-
+Due to the confidentiality of the dataset, we cannot open source it.
 
 
 ## 3. Usage
