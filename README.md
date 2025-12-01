@@ -85,13 +85,9 @@ warehouse=${othr_data}
 Due to the confidentiality of the dataset, we cannot open source it completely. We have open sourced a part of it, available at [Google Drive](https://drive.google.com/drive/folders/1UQBs6HTbl2ckQ6tTC9Ndoj8WQwCtf9yv?usp=drive_link).
 
 
-## 3. Sample Dataset
-As the collected data involves confidential information, we are only able to provide partial data here. The sample dataset can be accessed on [Google Drive](https://drive.google.com/drive/folders/1UQBs6HTbl2ckQ6tTC9Ndoj8WQwCtf9yv?usp=drive_link).
 
-
-
-## 4. Usage
-### 4.1 Training
+## 3. Usage
+### 3.1 Training
 
 1. Configure your parameters by referring to the [Parameter Table](doc/parameters.md), reference file `starnet.json` at dir `starnet/config_files`.
 2. Run training:
@@ -109,14 +105,14 @@ python tools/train.py --cfg config_files/starnet.json --resume --ckpt ${checkpoi
 > python tools/train.py --cfg config_files/starnet.json --resume --ckpt /root/autodl-tmp/MVRSS/logs/othr/starnet/starnet_e450_lr0.0001_s42_2/results/last_state.pt
 > ```
 
-### 4.2 Testing
+### 3.2 Testing
 
 Test with existing models:
 ```bash
 python tools/val.py --cfg logs/othr/starnet/starnet_e450_lr0.0001_s42_3/config.json
 ```
 
-### 4.3 Inference
+### 3.3 Inference
 
 Set your input dataset dir `${input_dir}`, infer with existing models:
 ```bash
